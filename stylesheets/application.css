@@ -429,3 +429,9 @@ a:hover { text-decoration: none; }
 .js-replace-icon-edit:before { content: "\f040"; font-family: FontAwesome; color: #e67e22; margin-right: .3em; }
 .js-replace-icon-comment:before { content: "\f075"; font-family: FontAwesome; color: #3498db; margin-right: .3em; }
 
+
+/* journal */
+.journal {
+    border-top: dotted 1px;
+    padding-top: 5px;
+}
