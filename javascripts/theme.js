@@ -50,6 +50,8 @@ $( document ).ready( function() {
     $( "a[onclick*='journals/edit']" ).addClass( "js-replace-icon-edit" ).empty();
 
     $('.toggle-all').text('fold/expand');
+
+    $("#footer div:contains('Powered by') a").attr('target', '_redmine_official');
 } );
 
 } )( jQuery );
