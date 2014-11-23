@@ -429,6 +429,7 @@ a:hover { text-decoration: none; }
 /* Replace icon */
 .js-replace-fa-icon { margin-right: .3em; }
 .js-replace-icon-trash:before { content: "\f014"; font-family: FontAwesome; color: #7f8c8d; margin-right: .3em; }
+.js-replace-icon-trash img[alt="Delete"], img[alt="Link_break"] { display: none; }
 .js-replace-icon-check:before { content: "\f00c"; font-family: FontAwesome; color: #1abc9c; margin-right: .3em; }
 .js-replace-icon-edit:before { content: "\f040"; font-family: FontAwesome; color: #e67e22; margin-right: .3em; }
 .js-replace-icon-comment:before { content: "\f075"; font-family: FontAwesome; color: #3498db; margin-right: .3em; }
